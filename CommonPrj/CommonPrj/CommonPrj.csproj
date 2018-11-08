@@ -46,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DtEx.cs" />
-    <Compile Include="Exports.cs" />
+    <Compile Include="Action\Check\ChkFunctioncs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataExetensions\DtEx.cs" />
+    <Compile Include="Action\Exports\Exports.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

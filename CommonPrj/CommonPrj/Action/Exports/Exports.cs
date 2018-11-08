@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CommonPrj
+namespace CommonPrj.Exports
 {
 
     /// <summary>
@@ -16,7 +16,7 @@ namespace CommonPrj
         /// </summary>
         /// <param name="val">対象</param>
         /// <returns>結果</returns>
-        private string OutTo(string val, ref string err)
+        static private string OutTo(string val, ref string err)
         {
             //TODO Unit
             var tst = "";
